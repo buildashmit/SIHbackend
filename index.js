@@ -96,7 +96,7 @@ function convertToCSV(data) {
         const csv = json2csvParser.parse(data);
 
         // Write the CSV data to a file
-        fs.writeFileSync('disaster_data.csv', csv);
+        fs.writeFileSync('disaster_data.csv', csv, { flag: 'a' });
         console.log('CSV file created: disaster_data.csv');
     } catch (err) {
         console.error('Error converting to CSV:', err);
