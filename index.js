@@ -1,16 +1,17 @@
-/* Import necessary libraries */
+// Import necessary libraries 
 import axios from 'axios'; // Import axios using ES modules
 import cron from 'node-cron'; // Import node-cron using ES modules
 import { Parser } from 'json2csv'; // For converting JSON to CSV
 import fs from 'fs'; // For writing the CSV to a file
 
-// Set up Facebook Graph API credentials
+// Facebook Graph API credentials
 const ACCESS_TOKEN = 'EAARzbIZC1S28BOzwQ7RU8M17BqMvUuUi0ojqMWYrZA1vObFcoJjU2ZBvTTlilnFZC8MwVWTU5gPZBGxrCZADPymlQjFzPZA5xXZCqiItpVmZAdYMsRLmsldIqKR3ZB2DedCOc8ygceKkoJ0u0DcMnZBOeOdXMJZBZCbmP9UOoYXZAWO1cKB2IBN1c0RSWsKmmEtIDQZC5Iq'; // Replace with your valid token
-const searchKeyword = '#flood, #drought, #tsunami, #earthquake, #landslide, #bridgecollapsed, #extremerainfall'; // Can be dynamically changed
+const searchKeyword = '#flood, #drought, #tsunami, #earthquake, #landslide, #bridgecollapsed, #extremerainfall, #india'; // Can be dynamically changed
 const location = 'India'; // Target location
-const BASE_URL = 'https://graph.facebook.com/v20.0/search?type=page&q=searchKeyword&fields=name,posts&access_token=EAARzbIZC1S28BOzwQ7RU8M17BqMvUuUi0ojqMWYrZA1vObFcoJjU2ZBvTTlilnFZC8MwVWTU5gPZBGxrCZADPymlQjFzPZA5xXZCqiItpVmZAdYMsRLmsldIqKR3ZB2DedCOc8ygceKkoJ0u0DcMnZBOeOdXMJZBZCbmP9UOoYXZAWO1cKB2IBN1c0RSWsKmmEtIDQZC5Iq'; // Check before implementing
+const BASE_URL = 'https://graph.facebook.com/v20.0/search?type=page&q=searchKeyword&fields=name,posts&access_token=EAARzbIZC1S28BOzwQ7RU8M17BqMvUuUi0ojqMWYrZA1vObFcoJjU2ZBvTTlilnFZC8MwVWTU5gPZBGxrCZADPymlQjFzPZA5xXZCqiItpVmZAdYMsRLmsldIqKR3ZB2DedCOc8ygceKkoJ0u0DcMnZBOeOdXMJZBZCbmP9UOoYXZAWO1cKB2IBN1c0RSWsKmmEtIDQZC5Iq'; // endpoints needs to be revised after setting up the  required permission
 
-// Define the keywords to filter disaster-related posts (for example, #flood in India)
+//Defined the keywords above to filter disaster-related posts
+//searchKeywords , then used that in base url so to retrieve data.
 
 // Function to fetch disaster data from Facebook
 async function fetchDisasterData(keyword, location) {
@@ -29,7 +30,7 @@ async function fetchDisasterData(keyword, location) {
             const postTime = new Date(post.created_time);
             const timeDifference = (currentTime - postTime) / (1000 * 60); // in minutes
             
-            if (timeDifference <= 60) {  // Filter posts within the last hour
+            if (timeDifference <= 120) {  // Filter posts within the last two hours
                 console.log(`Post: ${post.message}`);
                 console.log(`Page Name: ${post.name}`);
                 console.log(`Created Time: ${post.created_time}`);
@@ -57,7 +58,7 @@ async function fetchDisasterData(keyword, location) {
 // Function to convert JSON data to CSV and write it to a file
 function convertToCSV(data) {
     try {
-        const fields = ['name', 'message', 'created_time']; // Define CSV headers
+        const fields = ['name', 'message', 'created_time']; //CSV headers
         const json2csvParser = new Parser({ fields });
         const csv = json2csvParser.parse(data);
 
