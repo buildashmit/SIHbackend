@@ -1,7 +1,7 @@
-const axios = require('axios');
-const cron = require('node-cron');
-const { Parser } = require('json2csv'); // For converting JSON to CSV
-const fs = require('fs'); 
+import axios from 'axios'; 
+import cron from 'node-cron'; 
+import { Parser } from 'json2csv'; // For converting JSON to CSV
+import fs from 'fs'; 
 
 // Twitter API credentials
 const BEARER_TOKEN = 'YOUR_TWITTER_BEARER_TOKEN'; 
