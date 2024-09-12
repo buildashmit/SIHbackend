@@ -2,29 +2,41 @@ import axios from 'axios';
 import cron from 'node-cron'; 
 import { Parser } from 'json2csv'; // For converting JSON to CSV
 import fs from 'fs'; 
+import dotenv from 'dotenv'; // To load environment variables
+
+// Load environment variables from .env file
+dotenv.config(); 
 
 // Twitter API credentials
-const BEARER_TOKEN = 'YOUR_TWITTER_BEARER_TOKEN'; 
+const BEARER_TOKEN = process.env.TWITTER_BEARER_TOKEN; 
 const BASE_URL = 'https://api.twitter.com/2/tweets/search/recent';
 
-// Define the disaster-related keyword
-let searchKeyword = '#flood #drought #tsunami #earthquake #landslide #bridgecollapsed #extremerainfall #india';
+// Check if the Bearer Token is loaded correctly
+if (!BEARER_TOKEN) {
+    console.error('Error: Bearer Token not found. Please check your .env file.');
+    process.exit(1);  // Exit the script if the token is missing
+} else {
+    console.log('Bearer Token loaded successfully.');
+}
+
+// Define the disaster-related keyword (use 'OR' for broader matching)
+let searchKeyword = '#flood OR #drought OR #tsunami OR #earthquake OR #landslide OR #bridgecollapsed OR #extremerainfall OR #india';
 
 // Function to fetch tweets related to disasters from Twitter
 async function fetchTweets(searchKeyword) {
     try {
-        // Construct the search query with keyword
+        // Construct the search query with the keyword
         const url = `${BASE_URL}?query=${encodeURIComponent(searchKeyword)}&tweet.fields=created_at,geo&expansions=geo.place_id&place.fields=full_name,geo`;
 
         // Make the request to Twitter API
         const response = await axios.get(url, {
             headers: {
-                'Authorization': `Bearer ${BEARER_TOKEN}`,
+                'Authorization': `Bearer ${BEARER_TOKEN}`, // Correctly set Bearer token
             },
         });
 
-        const tweets = response.data.data;
-        const places = response.data.includes ? response.data.includes.places : [];
+        const tweets = response.data.data || [];
+        const places = response.data.includes?.places || [];
         const currentTime = new Date();
         const filteredTweets = [];
 
@@ -50,7 +62,7 @@ async function fetchTweets(searchKeyword) {
             }
 
             const timeDifference = (currentTime - tweetTime) / (1000 * 60); // in minutes
-            if (timeDifference <= 120) {  // Filter by recent tweets (within 60 minutes)
+            if (timeDifference <= 120) {  // Filter by recent tweets (within 120 minutes)
                 console.log(`Tweet: ${tweet.text}`);
                 console.log(`Location: ${locationName} (Lat: ${latitude}, Lon: ${longitude})`);
                 console.log('----------------------------------');
@@ -93,13 +105,11 @@ function convertToCSV(data) {
     }
 }
 
-// Schedule the function to run every minute (adjust the interval as needed)
-cron.schedule('* * * * *', () => {
+// Schedule the function to run every 15 minutes (to avoid API rate limit issues)
+cron.schedule('*/15 * * * *', () => {
     console.log('Fetching real-time disaster tweets...');
     fetchTweets(searchKeyword);
 });
 
 // To run once when the script starts
 fetchTweets(searchKeyword);
-
-
