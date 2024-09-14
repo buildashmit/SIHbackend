@@ -1,0 +1,1009 @@
+#rain #flood #breaking #BREAKING https://t.co/K0HZM5JBP0
+Created At: Sat Sep 14 14:31:28 +0000 2024
+----------------------------------
+Tweet: 🔴 Česka Ves #CZECH 14.09.2024
+#rain #flood #breaking https://t.co/4i6yKotiQN
+Created At: Sat Sep 14 14:27:40 +0000 2024
+----------------------------------
+Tweet: Vehicles ply through flooded streets as tropical storm #Ileana makes landfall in #Mexico
+
+#Flood #Storm #Flooding #Flashflood #Inundación #Lluvia #Rain #Climate #Weather #Viral https://t.co/QxuO6oSN4r
+Created At: Sat Sep 14 14:25:48 +0000 2024
+----------------------------------
+Tweet: தலைநகரை தவிக்கவிட்ட கனமழை.! மூட்டளவு தண்ணீர்.. மூழ்கிய வாகனங்கள்.. இப்படி ஒரு கஷ்டம் யாருக்கும் வரக்கூடாது..
+
+#delhi #heavyrain #flood #waterlogged #tamilnews #Newstamil24x7 https://t.co/gdGwz1GVac
+Created At: Sat Sep 14 14:24:42 +0000 2024
+----------------------------------
+Tweet: Meanwhile.........Portugal........(something of a #fire &amp; #flood weekend in Europe)   :(
+Created At: Sat Sep 14 14:22:27 +0000 2024
+----------------------------------
+Tweet: 🔴 JELENIA GORA Poland 14.09.2024
+#rain #flood #breaking https://t.co/OLjEuX0n5z
+Created At: Sat Sep 14 14:15:49 +0000 2024
+----------------------------------
+Tweet: Vehicles swept away as heavy rains triggered floods in parts of #Guatemala
+
+#Flood #CentralAmerica #Flooding #Flashflood #Inundación #Lluvia #Rain #Climate #Weather #Viral https://t.co/3slAlkWICC
+Created At: Sat Sep 14 14:14:25 +0000 2024
+----------------------------------
+Tweet: Relentless rains cause Mekong river to swell, overflowing into the business district of Nong Khai in #Thailand
+
+#Flood #Asia #NongKhai #Rain #Mekong #Flashflood #Climate #Rain #Weather #Viral https://t.co/ohx20f1CCM
+Created At: Sat Sep 14 14:07:27 +0000 2024
+----------------------------------
+Error converting to CSV: Error: EBUSY: resource busy or locked, open 'D:\web_dev\nodejs\disaster_aggregation_api_backend\disaster_tweets.csv'
+    at Object.openSync (node:fs:581:18)
+    at Object.writeFileSync (node:fs:2342:35)
+    at convertToCSV (file:///D:/web_dev/nodejs/disaster_aggregation_api_backend/twit6.js:102:12)
+    at fetchTweets (file:///D:/web_dev/nodejs/disaster_aggregation_api_backend/twit6.js:79:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'D:\\web_dev\\nodejs\\disaster_aggregation_api_backend\\disaster_tweets.csv'
+}
+API Response: {
+  status: 'ok',
+  timeline: [
+    {
+      type: 'tweet',
+      tweet_id: '1834965902271316441',
+      screen_name: 'DiLorenzoThoma7',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:42:17 +0000 2024',
+      text: 'Des tempêtes prévues en France bientôt ?\n#meteo #tempete #cyclone',
+      lang: 'fr',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834965902271316441',
+      retweets: 0,
+      views: '5',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834962686268129280',
+      screen_name: 'LimWeather',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 14:29:31 +0000 2024',
+      text: '#Invest93B/#Yagi now Deep Depression #BOB05 moving inland into #India via #Bangladesh form N #BayofBengal\n' +
+        'Interests in #Westbengal,#Odisha,there,NW #Myanmar should watch closely\n' +
+        'Unlikely to become #Dana\n' +
+        '#Wxtwitter #Wxx #Tropicswx #93B #Cyclone #CycloneDana https://t.co/svINxK8Obt',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834962686268129280',
+      retweets: 0,
+      views: '107',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object],
+      quoted: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834942725915132066',
+      screen_name: 'TLogbot',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 13:10:12 +0000 2024',
+      text: '日時： 2024年9月14日 22時10分 (JST)\n' +
+        'Invest 96W が発生しました\n' +
+        '位置：20.3N 154.5E\n' +
+        'ソース：TIDB\n' +
+        'https://t.co/ehUjSYvNFO\n' +
+        '\n' +
+        '#台風 #typhoon #cyclone #台風ログ #5ch #INVEST #96W',
+      lang: 'ja',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834942725915132066',
+      retweets: 0,
+      views: '41',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834930707766165521',
+      screen_name: 'StormWatch12345',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 12:22:26 +0000 2024',
+      text: '#HurricaneSeason #Hurricane #Cyclone #Storm #Typhoon #Japan #Taiwan #PhilippineSea #China #SouthChinaSea #Bebinca #TyphoonBebinca #Zhejiang\n' +
+        'Latest tracking + Sat. images https://t.co/gzcc445GJw',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834930707766165521',
+      retweets: 0,
+      views: '85',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834930418744779228',
+      screen_name: 'Smac300842',
+      bookmarks: 0,
+      favorites: 3,
+      created_at: 'Sat Sep 14 12:21:17 +0000 2024',
+      text: 'Good luck at Churchill today \n' +
+        '#Jack’s Time\n' +
+        '#Kinetic Control\n' +
+        '#Cyclone Mischief\n' +
+        '#Runcatherinerun',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834930418744779228',
+      retweets: 1,
+      views: '127',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834903456257134853',
+      screen_name: 'jclvallee1',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 10:34:09 +0000 2024',
+      text: '🌀🇪🇺⚡️Le #cyclone Boris fait déjà des dégâts en #Pologne, quatre morts en #Roumanie - https://t.co/5jjVeKEptE',
+      lang: 'fr',
+      quotes: 0,
+      replies: 0,
+      retweets: 0,
+      views: '81',
+      conversation_id: null,
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834897568578650406',
+      screen_name: 'oneindiaHindi',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 10:10:45 +0000 2024',
+      text: 'चक्रवात Yagi से फिर पानी-पानी होगी दिल्ली, IMD ने झारखंड-ओडिशा के लिए भी जारी किया अलर्ट\n' +
+        '\n' +
+        'Read more at: https://t.co/Cqyp0kUpt1\n' +
+        '#Cyclone #Delhi #DelhiWeather #Monsoon #Rain #DelhiRains #RainAlert #WeatherAlert',
+      lang: 'hi',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834897568578650406',
+      retweets: 0,
+      views: '160',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834886318729343040',
+      screen_name: 'VikalpTimes',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 09:26:03 +0000 2024',
+      text: '#News #Delhi "यागी तूफान के बाद भीषण बाढ़, दो लाख से अधिक लोग प्रभावित"\n' +
+        '\n' +
+        'https://t.co/0dliBDfE1i\n' +
+        '\n' +
+        '#Flood #Myanmar #Cyclone #Yagi #TyphoonYagi #HindiNews #LatestNews #LatestUpdates #SawaiMadhopurApp #VikalpTimes',
+      lang: 'hi',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834886318729343040',
+      retweets: 0,
+      views: '89',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834847972665823512',
+      screen_name: 'VHilssone',
+      bookmarks: 4,
+      favorites: 45,
+      created_at: 'Sat Sep 14 06:53:41 +0000 2024',
+      text: '🤦🏻‍♀️Il ne s’agit pas d’un #cyclone ! \n' +
+        '\n' +
+        'C’est une #dépression type « goutte froide » qui va toucher l’Europe centrale. \n' +
+        '\n' +
+        "Ce terme ne s'applique pas aux latitudes tempérées et encore moins à cet événement dont le paramètre principal sera les très fortes pluies, + que le vent. https://t.co/HDvb9yOn2q",
+      lang: 'fr',
+      quotes: 0,
+      replies: 3,
+      conversation_id: '1834847972665823512',
+      retweets: 14,
+      views: '3429',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834797773226377224',
+      screen_name: 'lagatarIN',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 03:34:12 +0000 2024',
+      text: 'रांची-जमशेदपुर में बिगड़ा मौसम, बारिश शुरु, दो दिनों तक रहेंगे ऐसे हालात https://t.co/9uSfs88j4F #ranchi #jamsedpur #weather #cyclone #barish #IMD',
+      lang: 'hi',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834797773226377224',
+      retweets: 2,
+      views: '46',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834783223911792706',
+      screen_name: 'geetamilnews',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 02:36:23 +0000 2024',
+      text: 'வடகிழக்கு வங்காள விரிகுடாவில் காற்றழுத்த தாழ்வு நிலை உருவாகி உள்ளதால், #புதுச்சேரி துறைமுகத்தில் ஒன்றாம் எண் புயல் எச்சரிக்கை கூண்டு ஏற்றப்பட்டுள்ளது.\n' +
+        '#Cyclone #Storm #Puducherry #Pondicherry #Geetamil #Tamilnews https://t.co/WPkUdeZOqb',
+      lang: 'ta',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834783223911792706',
+      retweets: 0,
+      views: '53',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834783005149122983',
+      screen_name: 'AK____0_0',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 02:35:31 +0000 2024',
+      text: 'Warning: The remnants of #Cyclone #Yagi are displaying strong organization and heavy #rainfall over East #India, potentially intensifying into a depression. A 72-hour alert is in effect for #Bengal, #Jharkhand, and north #Odisha.\n' +
+        '#TyphoonYagi #Yagityphoon  https://t.co/LVDAUi6IJ3',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834783005149122983',
+      retweets: 1,
+      views: '169',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834769112817447287',
+      screen_name: 'NewsTamilTV24x7',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 01:40:19 +0000 2024',
+      text: '#NewsUpdate  | எச்சரிக்கை கூண்டு\n' +
+        '\n' +
+        ' #NewsTamil24x7 | #coastal  | #cyclonealert  | #Cyclone | #Port | #Chennai | #Cuddalore https://t.co/lwVFkOzgAk',
+      lang: 'ta',
+      quotes: 0,
+      replies: 1,
+      conversation_id: '1834769112817447287',
+      retweets: 0,
+      views: '368',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834762873878581670',
+      screen_name: 'ZonsenMotor',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 01:15:32 +0000 2024',
+      text: '𝐂𝐈𝐌𝐀𝐌𝐨𝐭𝐨𝐫 𝟐𝟎𝟐𝟒\n'              +
+        'A century-old legend, the yellow speed demon. Start from mankind’s most primitive love for speed！🔥🔥🔥\n' +
+        '\n' +
+        'Hall: N8\n' +
+        'Stand No. : 8T10\n' +
+        '\n' +
+        'Further info: https://t.co/UErg9rB2Hk\n' +
+        '\n' +
+        ' #Cyclone #motorcycle #CIMAMotor2024 https://t.co/5ddsQcMx0R',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834762873878581670',
+      retweets: 0,
+      views: '24',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834758564931682817',
+      screen_name: 'dinamalarweb',
+      bookmarks: 1,
+      favorites: 30,
+      created_at: 'Sat Sep 14 00:58:24 +0000 2024',
+      text: 'உருவானது காற்றழுத்த தாழ்வு மண்டலம் \n' +
+        '#WeatherUpdate | #Weatherforecast | #ExtremelyRain | #monsoon #Alert #Cyclone\n' +
+        'https://t.co/y4W3uzOWeZ https://t.co/fqj745To8y',
+      lang: 'ta',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834758564931682817',
+      retweets: 3,
+      views: '1274',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834747952981852282',
+      screen_name: 'hurricane_chase',
+      bookmarks: 2,
+      favorites: 13,
+      created_at: 'Sat Sep 14 00:16:14 +0000 2024',
+      text: 'Unofficial #HCCTWO \n' +
+        '(1) #Bebinca strengthens, #Typhoon threat for #China\n' +
+        '(2) #Ileana near Baja California\n' +
+        '(3) #Gordon named\n' +
+        '(4) #Yagi reforms over #Bangladesh/#India/#Myanmar \n' +
+        '(5) #94L now a RL\n' +
+        '\n' +
+        '#wx #wxtwitter #tropicswx #cyclone #DANA #hurricane #Francine #HurricaneFrancine https://t.co/ZgzbuKSmus',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834747952981852282',
+      retweets: 2,
+      views: '764',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834734655922151831',
+      screen_name: 'Escaped_Artist',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Fri Sep 13 23:23:24 +0000 2024',
+      text: 'Navy Seal training? No. #cyclone basketball practice.',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834734655922151831',
+      retweets: 0,
+      views: '89',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      quoted: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834659964562161767',
+      screen_name: 'AKocziszky',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Fri Sep 13 18:26:36 +0000 2024',
+      text: 'Mediterranean #cyclone #Boris will bring late #autumn weather to #Hungary this weekend, but the warm weather is not over yet. Next week will bring very nice #hiking #weather. https://t.co/MzaxYnTBEq',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834659964562161767',
+      retweets: 0,
+      views: '343',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834653239972663567',
+      screen_name: 'weatherondafly',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Fri Sep 13 17:59:53 +0000 2024',
+      text: '(September 13) New Tropical Storm Forms in the Atlantic Basin.\n' +
+        'https://t.co/NiS9RjQWtK\n' +
+        '\n' +
+        '#gordon #tropicalstorm #tropicalupdate #NHC #wxtwitter #NOAA #Atlantic #ocean #New #Cyclone #cyclonealert #Hurricane #HurricaneSeason2024 https://t.co/D1VzvWl4sL',      
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834653239972663567',
+      retweets: 0,
+      views: '160',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834623877126799427',
+      screen_name: 'JeffWodka51',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Fri Sep 13 16:03:12 +0000 2024',
+      text: '#Cyclone State for 51 more weeks!\n🌪️🚨🌪️'  ,
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834623877126799427',
+      retweets: 0,
+      views: '34',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      quoted: [Object]
+    }
+  ],
+  next_cursor: 'DAADDAABCgABGXcbxBvWAdkKAAIZdeSyLJfAQwAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUZdyIzSoAnEAoABhl3IjNKf9jwAAA'
+}
+Retrieved 20 tweets about '#cyclone':
+Tweet: Des tempêtes prévues en France bientôt ?
+#meteo #tempete #cyclone
+Created At: Sat Sep 14 14:42:17 +0000 2024
+----------------------------------
+Tweet: #Invest93B/#Yagi now Deep Depression #BOB05 moving inland into #India via #Bangladesh form N #BayofBengal
+Interests in #Westbengal,#Odisha,there,NW #Myanmar should watch closely
+Unlikely to become #Dana
+#Wxtwitter #Wxx #Tropicswx #93B #Cyclone #CycloneDana https://t.co/svINxK8Obt
+Created At: Sat Sep 14 14:29:31 +0000 2024
+----------------------------------
+Error converting to CSV: Error: EBUSY: resource busy or locked, open 'D:\web_dev\nodejs\disaster_aggregation_api_backend\disaster_tweets.csv'
+    at Object.openSync (node:fs:581:18)
+    at Object.writeFileSync (node:fs:2342:35)
+    at convertToCSV (file:///D:/web_dev/nodejs/disaster_aggregation_api_backend/twit6.js:102:12)
+    at fetchTweets (file:///D:/web_dev/nodejs/disaster_aggregation_api_backend/twit6.js:79:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'D:\\web_dev\\nodejs\\disaster_aggregation_api_backend\\disaster_tweets.csv'
+}
+API Response: {
+  status: 'ok',
+  timeline: [
+    {
+      type: 'tweet',
+      tweet_id: '1834972889214587177',
+      screen_name: 'QuakesToday',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 15:10:03 +0000 2024',
+      text: '1.8 magnitude #earthquake. 45 km from Willow, AK, #UnitedStates https://t.co/xNZGuPL8Rv',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834972889214587177',
+      retweets: 0,
+      views: '4',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834972626399179139',
+      screen_name: 'everyEarthquake',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 15:09:00 +0000 2024',
+      text: 'USGS reports a M1.8 earthquake, 35 km E of Skwentna, Alaska on 9/14/24 @ 15:06:17 UTC\rhttps://t.co/5qZug83GY0\r#earthquake',
+      lang: 'tl',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834972626399179139',
+      retweets: 0,
+      views: '8',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834972422765773292',
+      screen_name: 'EMSC',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 15:08:12 +0000 2024',
+      text: '🔔#Earthquake (#sismo) M2.3 strikes 33 mi W of #Karluk (#Alaska) 25 min ago. More info: https://t.co/KXIfkQ1dBF',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834972422765773292',
+      retweets: 0,
+      views: '25',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834972384371319084',
+      screen_name: 'QuakesToday',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 15:08:03 +0000 2024',
+      text: '1.6 magnitude #earthquake. 47 km ESE of Pedro Bay, Alaska https://t.co/BuqThVaGE4',
+      lang: 'pt',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834972384371319084',
+      retweets: 0,
+      views: '67',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834972123430830561',
+      screen_name: 'everyEarthquake',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 15:07:01 +0000 2024',
+      text: 'USGS reports a M1.6 earthquake, 47 km ESE of Pedro Bay, Alaska on 9/14/24 @ 15:04:00 UTC\rhttps://t.co/gOqEo1q56T\r#earthquake',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834972123430830561',
+      retweets: 0,
+      views: '28',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834969626696130931',
+      screen_name: 'Global_EQ',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:57:05 +0000 2024',
+      text: 'A 3.9 magnitude #earthquake occured at 111 km SSE of Sand Point, Alaska. See the full report at: https://t.co/383O5CZGlT https://t.co/ENRra1xakC',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834969626696130931',
+      retweets: 0,
+      views: '29',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834969620039496050',
+      screen_name: 'QuakesToday',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 14:57:04 +0000 2024',
+      text: '3.9 magnitude #earthquake. 112 km from #SandPoint, AK, United States https://t.co/0K97It7tvo',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834969620039496050',
+      retweets: 0,
+      views: '366',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834969606043132158',
+      screen_name: 'everyEarthquake',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:57:00 +0000 2024',
+      text: 'USGS reports a M0.69 earthquake, 13 km WNW of Anza, CA on 9/14/24 @ 14:39:57 UTC\rhttps://t.co/NEkjNNtZLW\r#earthquake',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834969606043132158',
+      retweets: 0,
+      views: '79',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834969359002841390',
+      screen_name: 'everyEarthquake',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:56:01 +0000 2024',
+      text: 'USGS reports a M3.9 earthquake, 111 km SSE of Sand Point, Alaska on 9/14/24 @ 14:05:50 UTC\rhttps://t.co/ZX4zzjSvhB\r#earthquake',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834969359002841390',
+      retweets: 0,
+      views: '83',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834969288689525129',
+      screen_name: 'EMSC',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:55:45 +0000 2024',
+      text: '🔔#Earthquake (#sismo) M3.9 strikes 69 mi SE of Sand Point (#Alaska) 50 min ago. More info: https://t.co/xvBLPuqVfu',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834969288689525129',
+      retweets: 0,
+      views: '163',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834968388075930005',
+      screen_name: 'nserekoswale',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 14:52:10 +0000 2024',
+      text: 'Disability is not inability,let’s show love and humanity to the vulnerable. #Drisey #Disability #UkraineRussiaWar #donate #earthquake',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834968388075930005',
+      retweets: 0,
+      views: '47',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834968098429935740',
+      screen_name: 'everyEarthquake',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 14:51:01 +0000 2024',
+      text: 'USGS reports a M1.42 earthquake, 6 km N of Malibu, CA on 9/14/24 @ 14:37:06 UTC\rhttps://t.co/KiQbKtVFDx\r#earthquake',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834968098429935740',
+      retweets: 0,
+      views: '106',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834967686541197830',
+      screen_name: 'Kawasaki_h2r099',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 14:49:23 +0000 2024',
+      text: '𝕂𝕒𝕨𝕒𝕤𝕒𝕜𝕚 𝕟𝕚𝕟𝕛𝕒 ℍ2ℝ❣️\n'              +
+        '..🚀🫶☠️\n'  +
+        '.\n' +
+        '.\n' +
+        '#YAMAHA\n' +
+        '#royalenfield \n' +
+        ' #BBNaija                         \n' +
+        '#JinxVogueKorea\n' +
+        '#poweroflovegr \n' +
+        '#ZeeNuNew\n' +
+        '#LISAisBACK_VMAs\n' +
+        ' #OnyekaChigbo\n' +
+        '#Binance \n' +
+        ' #米津玄師2025TOURJUNK\n' +
+        '#earthquake \n' +
+        '#benbvolliefdevooruit https://t.co/T7YAmjsiig',
+      lang: 'in',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834967686541197830',
+      retweets: 0,
+      views: '317',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834967522522653076',
+      screen_name: '0_allio',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:48:44 +0000 2024',
+      text: '#KateMiddleton \n' +
+        '#Rain3描いたよ \n' +
+        '#Ramadan           \n' +
+        '#RomanReigns         \n' +
+        '#KISSOFLIFE \n' +
+        '#amici23\n' +
+        '#SeyFer \n' +
+        '#smilingfriends \n' +
+        '#XAUUSD \n' +
+        '#VALORANTコンペ \n' +
+        '#earthquake \n' +
+        '#قسمة_ونصيب ًً',
+      lang: 'ar',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834967522522653076',
+      retweets: 0,
+      views: '300',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      quoted: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834967354234880323',
+      screen_name: 'QuakesToday',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 14:48:03 +0000 2024',
+      text: '2.3 magnitude #earthquake. 63 km W of Karluk, Alaska https://t.co/wUPwBIBLaB',
+      lang: 'cs',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834967354234880323',
+      retweets: 1,
+      views: '547',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834967344830972041',
+      screen_name: 'tempobet_offc',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:48:01 +0000 2024',
+      text: '📢Arkadaşını davet et %30 Nakiti kap. En güzel kazançlar arkadaşlarla olur \n' +
+        '\n' +
+        'Grandpashabet Giriş: https://t.co/eAKeSlgAhh\n' +
+        '\n' +
+        '#grandpashabet #grandpashabetgir\n' +
+        '\n' +
+        'Trans #SiyahKalp 🖤 Travesti #earthquake Salim Güran\n' +
+        '\n' +
+        '#freejahrein Wanda Baldız #tiksiniyorum #gavat\n' +
+        '\n' +
+        '#freejahrein Baldız https://t.co/0e8OVhXQLW',
+      lang: 'tr',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834967344830972041',
+      retweets: 0,
+      views: '88',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834966850859577840',
+      screen_name: 'Global_EQ',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:46:03 +0000 2024',
+      text: 'A 2.3 magnitude #earthquake occured at 63 km W of Karluk, Alaska. See the full report at: https://t.co/9Tts70LTnL https://t.co/0odgbgx345',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834966850859577840',
+      retweets: 0,
+      views: '26',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834966848116539433',
+      screen_name: 'QuakesToday',
+      bookmarks: 0,
+      favorites: 3,
+      created_at: 'Sat Sep 14 14:46:03 +0000 2024',
+      text: '4.3 magnitude #earthquake. 172 km SE of Perryville, Alaska https://t.co/1xYK3o0pCM',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834966848116539433',
+      retweets: 1,
+      views: '575',
+      entities: [Object],
+      user_info: [Object],
+      media: []
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834966839429841140',
+      screen_name: 'everyEarthquake',
+      bookmarks: 0,
+      favorites: 1,
+      created_at: 'Sat Sep 14 14:46:01 +0000 2024',
+      text: 'USGS reports a M2.3 earthquake, 63 km W of Karluk, Alaska on 9/14/24 @ 14:43:25 UTC\rhttps://t.co/omYEVcS6gf\r#earthquake',
+      lang: 'en',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834966839429841140',
+      retweets: 0,
+      views: '113',
+      entities: [Object],
+      user_info: [Object],
+      media: [],
+      place: [Object]
+    },
+    {
+      type: 'tweet',
+      tweet_id: '1834966669003047252',
+      screen_name: 'NewsNamkeen',
+      bookmarks: 0,
+      favorites: 0,
+      created_at: 'Sat Sep 14 14:45:20 +0000 2024',
+      text: 'Kriti Pretty Sanon snapped.🔥😍\n' +
+        '\n' +
+        '#Divorce #MalaikaArora #TejRan #Devara #earthquake #arjunkapoor #TriptiiDimri #SajidNadiadwala #KVN5update #BajajIPO #Bajajhousing #HindiDiwas #SuryakumarYadav #CircleItFindit #WorldFirstAidDay https://t.co/RZTtzHAWpn',
+      lang: 'ht',
+      quotes: 0,
+      replies: 0,
+      conversation_id: '1834966669003047252',
+      retweets: 0,
+      views: '302',
+      entities: [Object],
+      user_info: [Object],
+      media: [Object]
+    }
+  ],
+  next_cursor: 'DAADDAABCgABGXciHuIbkSkKAAIZdxx2oJvBVAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUZdyIz3kAnEAoABhl3IjPeP9jwAAA'
+}
+Retrieved 20 tweets about '#earthquake':
+Tweet: 1.8 magnitude #earthquake. 45 km from Willow, AK, #UnitedStates https://t.co/xNZGuPL8Rv
+Created At: Sat Sep 14 15:10:03 +0000 2024
+----------------------------------
+#earthquakeo/5qZug83GY01.8 earthquake, 35 km E of Skwentna, Alaska on 9/14/24 @ 15:06:17 UTC
+Created At: Sat Sep 14 15:09:00 +0000 2024
+----------------------------------
+Tweet: 🔔#Earthquake (#sismo) M2.3 strikes 33 mi W of #Karluk (#Alaska) 25 min ago. More info: https://t.co/KXIfkQ1dBF
+Created At: Sat Sep 14 15:08:12 +0000 2024
+----------------------------------
+Tweet: 1.6 magnitude #earthquake. 47 km ESE of Pedro Bay, Alaska https://t.co/BuqThVaGE4
+Created At: Sat Sep 14 15:08:03 +0000 2024
+----------------------------------
+#earthquakeo/gOqEo1q56T1.6 earthquake, 47 km ESE of Pedro Bay, Alaska on 9/14/24 @ 15:04:00 UTC
+Created At: Sat Sep 14 15:07:01 +0000 2024
+----------------------------------
+Tweet: A 3.9 magnitude #earthquake occured at 111 km SSE of Sand Point, Alaska. See the full report at: https://t.co/383O5CZGlT https://t.co/ENRra1xakC
+Created At: Sat Sep 14 14:57:05 +0000 2024
+----------------------------------
+Tweet: 3.9 magnitude #earthquake. 112 km from #SandPoint, AK, United States https://t.co/0K97It7tvo
+Created At: Sat Sep 14 14:57:04 +0000 2024
+----------------------------------
+#earthquakeo/NEkjNNtZLW0.69 earthquake, 13 km WNW of Anza, CA on 9/14/24 @ 14:39:57 UTC
+Created At: Sat Sep 14 14:57:00 +0000 2024
+----------------------------------
+#earthquakeo/ZX4zzjSvhB3.9 earthquake, 111 km SSE of Sand Point, Alaska on 9/14/24 @ 14:05:50 UTC
+Created At: Sat Sep 14 14:56:01 +0000 2024
+----------------------------------
+Tweet: 🔔#Earthquake (#sismo) M3.9 strikes 69 mi SE of Sand Point (#Alaska) 50 min ago. More info: https://t.co/xvBLPuqVfu
+Created At: Sat Sep 14 14:55:45 +0000 2024
+----------------------------------
+Tweet: Disability is not inability,let’s show love and humanity to the vulnerable. #Drisey #Disability #UkraineRussiaWar #donate #earthquake
+Created At: Sat Sep 14 14:52:10 +0000 2024
+----------------------------------
+#earthquakeo/KiQbKtVFDx1.42 earthquake, 6 km N of Malibu, CA on 9/14/24 @ 14:37:06 UTC
+Created At: Sat Sep 14 14:51:01 +0000 2024
+----------------------------------
+Tweet: 𝕂𝕒𝕨𝕒𝕤𝕒𝕜𝕚 𝕟𝕚𝕟𝕛𝕒 ℍ2ℝ❣️
+..🚀🫶☠️
+.
+.
+#YAMAHA
+#royalenfield
+ #BBNaija                         
+#JinxVogueKorea
+#poweroflovegr
+#ZeeNuNew
+#LISAisBACK_VMAs
+ #OnyekaChigbo
+#Binance
+ #米津玄師2025TOURJUNK
+#earthquake
+#benbvolliefdevooruit https://t.co/T7YAmjsiig
+Created At: Sat Sep 14 14:49:23 +0000 2024
+----------------------------------
+Tweet: #KateMiddleton
+#Rain3描いたよ
+#Ramadan          
+#RomanReigns         
+#KISSOFLIFE
+#amici23
+#SeyFer
+#smilingfriends
+#XAUUSD
+#VALORANTコンペ
+#earthquake
+#قسمة_ونصيب ًً
+Created At: Sat Sep 14 14:48:44 +0000 2024
+----------------------------------
+Tweet: 2.3 magnitude #earthquake. 63 km W of Karluk, Alaska https://t.co/wUPwBIBLaB
+Created At: Sat Sep 14 14:48:03 +0000 2024
+----------------------------------
+Tweet: 📢Arkadaşını davet et %30 Nakiti kap. En güzel kazançlar arkadaşlarla olur 
+
+Grandpashabet Giriş: https://t.co/eAKeSlgAhh
+
+#grandpashabet #grandpashabetgir
+
+Trans #SiyahKalp 🖤 Travesti #earthquake Salim Güran
+
+#freejahrein Wanda Baldız #tiksiniyorum #gavat
+
+#freejahrein Baldız https://t.co/0e8OVhXQLW
+Created At: Sat Sep 14 14:48:01 +0000 2024
+----------------------------------
+Tweet: A 2.3 magnitude #earthquake occured at 63 km W of Karluk, Alaska. See the full report at: https://t.co/9Tts70LTnL https://t.co/0odgbgx345
+Created At: Sat Sep 14 14:46:03 +0000 2024
+----------------------------------
+Tweet: 4.3 magnitude #earthquake. 172 km SE of Perryville, Alaska https://t.co/1xYK3o0pCM
+Created At: Sat Sep 14 14:46:03 +0000 2024
+----------------------------------
+#earthquakeo/omYEVcS6gf2.3 earthquake, 63 km W of Karluk, Alaska on 9/14/24 @ 14:43:25 UTC
+Created At: Sat Sep 14 14:46:01 +0000 2024
+----------------------------------
+Tweet: Kriti Pretty Sanon snapped.🔥😍
+
+#Divorce #MalaikaArora #TejRan #Devara #earthquake #arjunkapoor #TriptiiDimri #SajidNadiadwala #KVN5update #BajajIPO #Bajajhousing #HindiDiwas #SuryakumarYadav #CircleItFindit #WorldFirstAidDay https://t.co/RZTtzHAWpn
+Created At: Sat Sep 14 14:45:20 +0000 2024
+----------------------------------
+Error converting to CSV: Error: EBUSY: resource busy or locked, open 'D:\web_dev\nodejs\disaster_aggregation_api_backend\disaster_tweets.csv'
+    at Object.openSync (node:fs:581:18)
+    at Object.writeFileSync (node:fs:2342:35)
+    at convertToCSV (file:///D:/web_dev/nodejs/disaster_aggregation_api_backend/twit6.js:102:12)
+    at fetchTweets (file:///D:/web_dev/nodejs/disaster_aggregation_api_backend/twit6.js:79:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'D:\\web_dev\\nodejs\\disaster_aggregation_api_backend\\disaster_tweets.csv'
+}
+PS D:\web_dev\nodejs\disaster_aggregation_api_backend> 
