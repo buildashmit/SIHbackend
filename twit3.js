@@ -3,7 +3,7 @@ import cron from 'node-cron';
 import { Parser } from 'json2csv'; // For converting JSON to CSV
 import fs from 'fs';
 import dotenv from 'dotenv'; // To load environment variables
-import path from 'path';
+import path from 'path'; // To handle file paths
 
 // Load environment variables from .env file
 dotenv.config();
@@ -20,17 +20,8 @@ if (!RAPIDAPI_KEY) {
     console.log('RapidAPI Key loaded successfully.');
 }
 
-// Define the disaster-related keyword (use 'OR' for broader matching)
+// Define the disaster-related keywords (single keyword at a time for RapidAPI)
 let searchKeyword = '#flood';
-
-// Directory where the CSV file will be saved
-const saveDir = path.join('D:','web_dev','nodejs','disaster_aggregation_api_backend','disaster_data'); // Modify this path as needed
-const csvFilePath = path.join(saveDir, 'disaster_tweets.csv');
-
-// Check if the directory exists, if not, create it
-if (!fs.existsSync(saveDir)) {
-    fs.mkdirSync(saveDir, { recursive: true });  // Creates the directory if it doesn't exist
-}
 
 // Function to fetch tweets related to disasters from Twitter (using RapidAPI)
 async function fetchTweets(searchKeyword) {
@@ -40,8 +31,8 @@ async function fetchTweets(searchKeyword) {
             method: 'GET',
             url: BASE_URL,
             params: {
-                query: searchKeyword,
-                search_type: 'Top'
+                query: searchKeyword,  // Simpler query
+                search_type: 'Latest'  // Use 'Latest' for more recent tweets
             },
             headers: {
                 'x-rapidapi-key': RAPIDAPI_KEY,
@@ -52,7 +43,10 @@ async function fetchTweets(searchKeyword) {
         // Make the request to Twitter API via RapidAPI
         const response = await axios.request(options);
 
-        const tweets = response.data.data || [];  // Adapt to RapidAPI response structure
+        // Debugging: Check the full response structure
+        console.log('API Response:', response.data);
+
+        const tweets = response.data?.timeline || [];  // Adjust based on RapidAPI response structure
         const currentTime = new Date();
         const filteredTweets = [];
 
@@ -79,6 +73,8 @@ async function fetchTweets(searchKeyword) {
         // Convert filtered data to CSV and write to file
         if (filteredTweets.length > 0) {
             convertToCSV(filteredTweets);
+        } else {
+            console.log('No new tweets found within the last 120 minutes.');
         }
 
         return tweets;
@@ -95,9 +91,12 @@ function convertToCSV(data) {
         const json2csvParser = new Parser({ fields });
         const csv = json2csvParser.parse(data);
 
-        // Write the CSV data to a file in the specified directory
-        fs.writeFileSync(csvFilePath, csv, { flag: 'a' });  // 'a' flag to append to the file
-        console.log(`CSV file updated: ${csvFilePath}`);
+        // Define the file path for Windows (replace 'yourname' with your actual username)
+        const savePath = path.join('D:', 'web_dev', 'nodejs', 'disaster_aggregation_api_backend', 'disaster_tweets.csv');
+
+        // Write the CSV data to a file
+        fs.writeFileSync(savePath, csv, { flag: 'a' });  // 'a' flag to append to the file
+        console.log(`CSV file updated: ${savePath}`);
     } catch (err) {
         console.error('Error converting to CSV:', err);
     }
