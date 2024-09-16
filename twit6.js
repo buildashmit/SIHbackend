@@ -21,7 +21,7 @@ if (!RAPIDAPI_KEY) {
 }
 
 // Define the disaster-related keywords (multiple keywords)
-const searchKeywords = ['#IndiaFloods', '#earthquake', '#cyclone', '#fire', '#tsunami'];
+const searchKeywords = ['#Floods', '#earthquake', '#cyclone', '#fire', '#heavyrain', '#waterlogging', '#industrialdisaster', '#medicalemergency'];
 
 // Define geocode for India (Latitude, Longitude, Radius)
 const GEO_CODE = '20.5937,78.9629,500km'; // Approximate center of India
